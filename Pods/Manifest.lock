@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JCore (2.0.1)
+  - JPush (3.2.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - SnapKit (4.2.0)
+  - UMCAnalytics (6.0.3):
+    - UMCCommon
+  - UMCCommon (2.0.1)
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - JPush
+  - SnapKit
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JCore
+    - JPush
+    - SnapKit
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JCore: 8425fb3f85f1400f9bc8ccf8121cd5694a790f3b
+  JPush: 8459e7a709ad86f95884fcb49cbd57a6da24744e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  UMCAnalytics: ff58714ada407682c4a07548156f94bcec92f055
+  UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 50eef19f2e43d1f08ccb56057e013fb129ddbcf4
+
+COCOAPODS: 1.7.0
